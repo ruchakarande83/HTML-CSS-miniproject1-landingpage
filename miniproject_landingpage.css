@@ -1,5 +1,4 @@
-
-body {
+  body {
   font-family: sans-serif;
   background-color: #1f1f1f;
 
@@ -18,7 +17,9 @@ body {
   position: relative;
   border-radius: 10px;
 }
-
+#bar a:hover{
+  text-decoration: underline;
+}
 #logo {
   border: 2px solid #007acc; 
   border-radius: 50px;
@@ -81,13 +82,16 @@ body {
 }
 
 #img {
-  height: 360px;
-  width: 335px;
-  margin-left: 620px;
-  margin-top: -200px;
+  height: 380px;
+  width: 380px;
+  margin-left: 540px;
+  margin-top: -245px;
   display: inline-flex;
+  transform: 2s;
 }
-
+#img:hover{
+  scale: 1.1;
+}
 
 #mainDiv {
   border: 2px solid #007acc; 
@@ -124,9 +128,9 @@ body {
   display: flex;              
   justify-content: space-around;  
   align-items: center;    
-  padding: 20px;                
+  padding: 20px;             
+  box-shadow: 0 4px 10px rgba(34, 40, 49, 0.8), 0 0 15px rgba(0, 122, 204, 0.7);
 }
-
 #down1 h3 {
   text-align: center;       
   color: #007acc; 
